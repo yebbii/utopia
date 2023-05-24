@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - UtopiaApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>UtopiaApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/utopia.html">utopia</a> &gt; UtopiaApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.279s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.279s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>10:51:27.267 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:51:27.276 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:51:27.303 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [utopia.UtopiaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:51:27.312 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [utopia.UtopiaApplicationTests], using SpringBootContextLoader
+10:51:27.317 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [utopia.UtopiaApplicationTests]: class path resource [utopia/UtopiaApplicationTests-context.xml] does not exist
+10:51:27.317 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [utopia.UtopiaApplicationTests]: class path resource [utopia/UtopiaApplicationTestsContext.groovy] does not exist
+10:51:27.317 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [utopia.UtopiaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:51:27.317 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [utopia.UtopiaApplicationTests]: UtopiaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:51:27.353 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [utopia.UtopiaApplicationTests]
+10:51:27.401 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Java\eclipse-workspace\utopia\build\classes\java\main\utopia\UtopiaApplication.class]
+10:51:27.401 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration utopia.UtopiaApplication for test class utopia.UtopiaApplicationTests
+10:51:27.483 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [utopia.UtopiaApplicationTests]: using defaults.
+10:51:27.484 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:51:27.499 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@61526469, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@274872f8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@76ba13c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@eb6449b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c351808, org.springframework.test.context.support.DirtiesContextTestExecutionListener@180e6ac4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@42b64ab8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7e985ce9, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a39fe6a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@410ae9a3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@319988b0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@d5ae57e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@68759011, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7e242b4d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@305f031]
+10:51:27.502 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@475835b1 testClass = UtopiaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6326d182 testClass = UtopiaApplicationTests, locations = '{}', classes = '{class utopia.UtopiaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@344f4dea, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1afdd473, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@51acdf2e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3a0baae5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@53dbe163, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4d5b6aac], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v2.7.8-SNAPSHOT)
+
+2023-03-13 10:51:27.745  INFO 17616 --- [    Test worker] utopia.UtopiaApplicationTests            : Starting UtopiaApplicationTests using Java 18.0.2.1 on DESKTOP-F4BC13L with PID 17616 (started by hi in C:\Java\eclipse-workspace\utopia)
+2023-03-13 10:51:27.746  INFO 17616 --- [    Test worker] utopia.UtopiaApplicationTests            : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-03-13 10:51:28.273  INFO 17616 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-13 10:51:28.296  INFO 17616 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2023-03-13 10:51:28.686  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'databaseConfiguration' of type [utopia.configuration.DatabaseConfiguration$$EnhancerBySpringCGLIB$$13125bd6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:28.728  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'hikariConfig' of type [com.zaxxer.hikari.HikariConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:28.740  INFO 17616 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-13 10:51:29.049  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection opened. {executed in 281ms} 
+2023-03-13 10:51:29.051  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.new Connection returned 
+2023-03-13 10:51:29.051  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getNetworkTimeout() returned 0
+2023-03-13 10:51:29.051  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.052  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.057  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Statement.new Statement returned 
+2023-03-13 10:51:29.057  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@15e8f9b2
+2023-03-13 10:51:29.067  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. select 1  {executed in 10 ms}
+2023-03-13 10:51:29.068  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Statement.execute(select 1) returned true
+2023-03-13 10:51:29.068  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Statement.close() returned 
+2023-03-13 10:51:29.069  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getTransactionIsolation() returned 4
+2023-03-13 10:51:29.071  INFO 17616 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+HikariDataSource (HikariPool-1)
+2023-03-13 10:51:29.076  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.089  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.JpaProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.094  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.099  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.101  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'hikariPoolDataSourceMetadataProvider' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration$$Lambda$860/0x000000080110f330] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.107  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.115  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.121  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.123  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.139  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration' of type [org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.142  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties' of type [org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.151  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceScriptDatabaseInitializer' of type [org.springframework.boot.autoconfigure.sql.init.SqlDataSourceScriptDatabaseInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.161  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'jpaVendorAdapter' of type [org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.166  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactoryBuilder' of type [org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.188  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@561f9d92
+2023-03-13 10:51:29.189  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 2. Connection opened. {executed in 15ms} 
+2023-03-13 10:51:29.191  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 2. Connection.new Connection returned 
+2023-03-13 10:51:29.191  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 2. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.191  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 2. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.213  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.clearWarnings() returned 
+2023-03-13 10:51:29.219  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 3. Connection opened. {executed in 28ms} 
+2023-03-13 10:51:29.220  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 3. Connection.new Connection returned 
+2023-03-13 10:51:29.220  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 3. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.220  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 3. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.233  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 4. Connection opened. {executed in 13ms} 
+2023-03-13 10:51:29.234  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 4. Connection.new Connection returned 
+2023-03-13 10:51:29.234  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 4. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.234  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 4. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.247  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 5. Connection opened. {executed in 13ms} 
+2023-03-13 10:51:29.247  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 5. Connection.new Connection returned 
+2023-03-13 10:51:29.248  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 5. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.248  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 5. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.261  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 6. Connection opened. {executed in 13ms} 
+2023-03-13 10:51:29.261  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 6. Connection.new Connection returned 
+2023-03-13 10:51:29.261  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 6. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.262  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 6. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.291  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 7. Connection opened. {executed in 29ms} 
+2023-03-13 10:51:29.291  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 7. Connection.new Connection returned 
+2023-03-13 10:51:29.291  INFO 17616 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-13 10:51:29.291  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 7. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.291  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 7. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.304  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 8. Connection opened. {executed in 12ms} 
+2023-03-13 10:51:29.304  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 8. Connection.new Connection returned 
+2023-03-13 10:51:29.305  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 8. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.305  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 8. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.318  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 9. Connection opened. {executed in 13ms} 
+2023-03-13 10:51:29.318  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 9. Connection.new Connection returned 
+2023-03-13 10:51:29.319  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 9. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.319  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 9. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.332  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 10. Connection opened. {executed in 13ms} 
+2023-03-13 10:51:29.332  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 10. Connection.new Connection returned 
+2023-03-13 10:51:29.333  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 10. Connection.isReadOnly() returned false
+2023-03-13 10:51:29.333  INFO 17616 --- [onnection adder] log4jdbc.log4j2                          : 10. Connection.getAutoCommit() returned true
+2023-03-13 10:51:29.368  INFO 17616 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-13 10:51:29.555  INFO 17616 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-13 10:51:29.691  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Statement.new Statement returned 
+2023-03-13 10:51:29.691  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.createStatement() returned net.sf.log4jdbc.sql.jdbcapi.StatementSpy@6caeba36
+2023-03-13 10:51:29.692  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. select 1  {executed in 1 ms}
+2023-03-13 10:51:29.692  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Statement.execute(select 1) returned true
+2023-03-13 10:51:29.692  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Statement.close() returned 
+2023-03-13 10:51:29.692  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@4bbc21bd
+2023-03-13 10:51:29.693  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@55e91e61
+2023-03-13 10:51:29.718  INFO 17616 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-03-13 10:51:29.733  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getCatalog() returned utopiadb
+2023-03-13 10:51:29.738  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2023-03-13 10:51:29.739  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getSchema() returned null
+2023-03-13 10:51:29.743  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaData@3d53e876
+2023-03-13 10:51:29.744  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.createClob() returned com.mysql.cj.jdbc.Clob@401ec794
+2023-03-13 10:51:29.745  INFO 17616 --- [    Test worker] log4jdbc.log4j2                          : 1. Connection.clearWarnings() returned 
+2023-03-13 10:51:29.890  INFO 17616 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-13 10:51:29.899  INFO 17616 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-13 10:51:29.901  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactory' of type [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.905  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'entityManagerFactory' of type [jdk.proxy3.$Proxy94] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.914  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [org.springframework.orm.jpa.JpaTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.917  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAspect' of type [utopia.aop.TransactionAspect$$EnhancerBySpringCGLIB$$e9f106dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.923  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:29.926  INFO 17616 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-13 10:51:30.512  WARN 17616 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-13 10:51:31.530  INFO 17616 --- [    Test worker] utopia.UtopiaApplicationTests            : Started UtopiaApplicationTests in 3.998 seconds (JVM running for 4.923)
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at 2023. 3. 13. 오전 10:51:31</p>
+</div>
+</div>
+</body>
+</html>
